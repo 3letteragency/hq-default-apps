@@ -12,3 +12,8 @@ spec:
     path: metrics
     repoURL: 'https://github.com/3letteragency/hq-default-apps'
     targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+    syncOptions:
+      - CreateNamespace=true
